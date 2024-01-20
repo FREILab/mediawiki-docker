@@ -1,4 +1,4 @@
-FROM mediawiki:latest
+FROM mediawiki:1.40.1
 
 RUN git clone -b 7.0.0 https://github.com/wikimedia/mediawiki-extensions-PluggableAuth.git /var/www/html/extensions/PluggableAuth
 
